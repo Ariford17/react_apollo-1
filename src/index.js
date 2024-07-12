@@ -12,7 +12,7 @@ import {
 } from '@apollo/client';
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:'
+    uri: 'http://localhost:4000'
 });
 
 const client = new ApolloClient({
